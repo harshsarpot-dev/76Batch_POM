@@ -1,7 +1,8 @@
 // To provide object/locator and method related to the verifypage page 
 
 import { expect } from "@playwright/test";
-import { BaseClass } from "../utils/Baseclass";
+import { BaseClass } from "../utils/BaseClass";
+
 
 
 export class Verifypage extends BaseClass{

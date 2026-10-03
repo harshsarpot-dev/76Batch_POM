@@ -1,6 +1,6 @@
 // To provide common function/methods which are related to the whole application
 
-import { BaseClass } from "./Baseclass";
+import { BaseClass } from "./BaseClass";
 
 export class CommonFun extends BaseClass{
 
@@ -12,7 +12,7 @@ export class CommonFun extends BaseClass{
     static async waitstm(){
         await this.page.waitForTimeout(2000);
         console.log("wait for 2 seconds");
-        
+
     }
 
 }

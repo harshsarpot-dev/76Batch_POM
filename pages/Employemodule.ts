@@ -1,4 +1,4 @@
-import { BaseClass } from "../utils/Baseclass";
+import { BaseClass } from "../utils/BaseClass";
 
 
 export class Employemodule extends BaseClass{
@@ -17,7 +17,7 @@ export class Employemodule extends BaseClass{
         await frame.locator(this.firstname_field).fill(firstname);
         await frame.locator(this.lastname_field).fill(lastname);
         await frame.locator(this.save_button).click();
-        
+
     }
 
 

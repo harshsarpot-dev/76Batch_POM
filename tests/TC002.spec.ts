@@ -1,7 +1,7 @@
 
 import{test} from '@playwright/test';
-import { BaseClass } from '../utils/Baseclass';
-import { CommonFun } from '../utils/Commonfun';
+import { BaseClass } from '../utils/BaseClass';
+import { CommonFun } from '../utils/CommonFun';
 import { Loginpage } from '../pages/Loginpage';
 import { Verifypage } from '../pages/Verifypage';
 import { Employemodule } from '../pages/Employemodule';

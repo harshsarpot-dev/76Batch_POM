@@ -1,6 +1,6 @@
 // To provide object/locator and method related to the logout page 
 
-import { BaseClass } from "../utils/Baseclass";
+import { BaseClass } from "../utils/BaseClass";
 
 export class Logoutpage extends BaseClass{
 
